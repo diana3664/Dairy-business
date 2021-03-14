@@ -10,5 +10,5 @@ var d = 572;
 var production = [a, b ,c ,d];
 var i = 0;
 while ( i < production.length){
-
+  var shed = ["A" + "B" + "C" + "D"];
 }
