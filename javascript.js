@@ -50,6 +50,10 @@ var monthlyProduction = [{
   month : "July"
   days : 31
 }
+{
+  month : "August"
+  days : 30
+}
 ]
 
 
