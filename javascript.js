@@ -4,3 +4,5 @@ var a = 510;
 var b = 308;
 // declearing the value of c as 486
 var c = 486;
+// declearing the value of d as 572
+var d = 572;
