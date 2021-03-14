@@ -22,6 +22,11 @@ var incomeOvertime = 45;{
     console.log("Your weekly income will be ksh" + " " +incomeOvertime * totalProduction * 7)
     console.log("Your yearly income will be ksh" + " " +incomeOvertime * totalProduction * 366)
 }
+var monthlyProduction = [{
+  month : "January"
+  days : 31
+}
+]
 
 
 
