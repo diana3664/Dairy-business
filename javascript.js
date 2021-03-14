@@ -2,3 +2,5 @@
 var a = 510;
 //declearing the value of b as 308
 var b = 308;
+// declearing the value of c as 486
+var c = 486;
