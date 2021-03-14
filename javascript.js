@@ -9,3 +9,6 @@ var d = 572;
 // declearing the production of each shed
 var production = [a, b ,c ,d];
 var i = 0;
+while ( i < production.length){
+
+}
