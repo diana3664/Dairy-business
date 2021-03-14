@@ -22,55 +22,9 @@ var incomeOvertime = 45;{
     console.log("Your weekly income will be ksh" + " " +incomeOvertime * totalProduction * 7)
     console.log("Your yearly income will be ksh" + " " +incomeOvertime * totalProduction * 366)
 }
-var monthlyProduction = [{
-  month : "January"
-  days : 31
-}
-{
-  month : "February"
-  days : 29
-}
-{
-  month : "March"
-  days : 31
-}
-{
-  month : " April"
-  days : 30
-}
-{
-  month : "May"
-  days : 31
-}
-{
-  month : "june"
-  days : 30
-}
-{
-  month : "July"
-  days : 31
-}
-{
-  month : "August"
-  days : 31
-}
-{
-  month : "September"
-  days : 30
-}
-{
-  month : "October"
-  days : 31
-}
-{
- month : "November"
- days : 30  
-}
-{
-  month : "December"
-  days : 31
-}
-]
-
-
-
+var month = ["January", "Febuary", "march", "April", "May", "June", "July", "August", "September", "October", "November", "December"];
+var days = [31, 29 , 31, 30 , 31, 30, 31, 31, 30, 31, 30, 31]
+while(i < month.length ,days.length){
+console.log("Your income for " + month[i] + "is" + days[i] * incomeOvertime * totalProduction )
+i++;
+};
