@@ -52,15 +52,19 @@ var monthlyProduction = [{
 }
 {
   month : "August"
-  days : 30
-}
-{
-  month : "September"
   days : 31
 }
 {
-  month : "October"
+  month : "September"
   days : 30
+}
+{
+  month : "October"
+  days : 31
+}
+{
+ month : "November"
+ days : 30  
 }
 
 ]
