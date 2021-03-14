@@ -15,4 +15,9 @@ var i=0;
   i++;
 }
 //declare a new variable
-var totalproduction = a+b+c+d
+var totalProduction = a+b+c+d;{
+  console.log("The total production is" + " " + totalProduction + " "+"liters per day")
+};
+
+
+
