@@ -18,6 +18,10 @@ var i=0;
 var totalProduction = a+b+c+d;{
   console.log("The total production is" + " " + totalProduction + " "+"liters per day")
 };
+var incomeOvertime = 45;{
+    console.log("Your weekly income will be ksh" + " " +incomeOvertime * totalProduction * 7)
+
+}
 
 
 
