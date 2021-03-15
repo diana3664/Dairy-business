@@ -2,5 +2,11 @@
     background-color: aquamarine;
     text-align: center;
     padding-top: 55px;
-    padding-bottom: 100px;
+    padding-bottom: 150px;
+}
+.Background{
+    background-image: url("https://img.webmd.com/dtmcms/live/webmd/consumer_assets/site_images/article_thumbnails/reference_guide/living_with_a_milk_allergy_ref_guide/650x350_living_with_a_milk_allergy_ref_guide.jpg?resize=*:350px");
+    background-repeat: no-repeat;
+    background-size: cover;
+    
 }
