@@ -2,10 +2,36 @@
 <html>
     <head>
         <title>Dairy Business</title>
-        <link rel="stylesheet" href ="index.csss">
+        <link rel="stylesheet" href ="index.css">
     </head>
     <body>
-        <h1>Dairy Business</h1>
-        <script src="javascript.js"></script>
+        <h1 class="color">Dairy Business</h1>
+        <div id="totals"></div>
+        <div id="income"></div>
+        <div class="form">
+            <p>sides</p>
+            <div class="input-field">
+              <label for="num1">Shade A</label>
+              <input class="number" type="text" id="cow1" name="cow1">
+            </div>
+            <div class="input-field">
+               <label for="num2">Shade B</label>
+                <input class="number" type="text" id="cow2" name="cow2">
+            </div>
+            <div class="input-field">
+              <label for="num3">Shade C</label>
+              <input class="number" type="text" id="cow3" name="cow3">
+            </div>
+            <div class="input-field">
+                <label for="num3">Shade D</label>
+                <input class="number" type="text" id="cow4" name="cow4">
+              </div>
+            <input class="button" type="button" value="Find Out" onclick="triangle()">
+            <input class="button" type="button" value="Reset" onclick="reset()">
+            <p id="display"></p>
+          </div>
+          <div id="footer">
+          </div>
+          <script type="text/javascript" src="javascript.js"></script>
     </body>
 </html>
